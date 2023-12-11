@@ -85,10 +85,14 @@ export default {
                 password: this.password,
                 password_confirmation: this.confirmPassword
             }).then((response) => {
-                console.log('data sent', response)
+                this.name = '';
+                this.email = '';
+                this.password = '';
+                this.confirmPassword = '';
+                console.log('data sent', response);
                 const token = response.data.token;
                 localStorage.setItem('token', token);
-                console.log('login succesful token stored', token)
+                console.log('login successful token stored', token);
             }).catch((error) => {
                 console.log('error', error)
             })

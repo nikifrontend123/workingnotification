@@ -55,6 +55,8 @@ export default {
                 email: this.email,
                 password: this.password
             }).then((response) => {
+                this.email = '';
+                this.password = '';
                 console.log('data sent', response)
                 const token = response.data.token;
                 localStorage.setItem('token', token);
