@@ -11,8 +11,8 @@
                 <p class="mt-2 m-0 fw-bold icon">Fabricator</p>
             </div>
         </div>
-        <div class="container d-flex flex-column align-items-center justify-content-center col-md-6 bg-light pt-2">
-            <p class="fs-5">Login Your Account </p>
+        <div class="container d-flex flex-column col-md-6 bg-light pt-2">
+            <p class="text-center">Login Your Account </p>
 
             <form @submit.prevent="loginAccount()">
                 <div class="w-100 p-2 form-floating container">

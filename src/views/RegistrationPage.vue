@@ -12,8 +12,8 @@
                 <p class="mt-2 m-0 fw-bold icon">Fabricator</p>
             </div>
         </div>
-        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center pt-2">
-            <p class="text-cetner fs-5">Register Your Account </p>
+        <div class="col-md-6 d-flex flex-column pt-2">
+            <p class="text-cetner">Register Your Account </p>
             <form @submit.prevent="registerUser()">
                 <div class="container">
                     <div class="w-100 p-2 form-floating">
